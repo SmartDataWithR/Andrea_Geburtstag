@@ -38,8 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const endSection = document.createElement('section');
     endSection.classList.add('section', 'end-cover');
     endSection.innerHTML = `
-        <h2>Fertig!</h2>
-        <p>Auf viele weitere schöne Momente!</p>
+        <h2>Auf viele weitere schöne Momente!</h2>
     `;
     gallery.appendChild(endSection);
 });
